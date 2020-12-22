@@ -14,19 +14,19 @@
 
 //console.log(typeof rating);
 
-const name ='Josh';
-const age = 30;
+//const name ='Josh';
+//const age = 30;
 
 // Concatenation
-console.log('My name is ' + name + ' and I am ' + age);
+//console.log('My name is ' + name + ' and I am ' + age);
 // Template String
-const hello = (`My name is ${name} and I am ${age}`);
+//const hello = (`My name is ${name} and I am ${age}`);
 
-console.log(hello);
-
-
+//console.log(hello);
 
 
-const s = 'Hello World';
 
-console.log(s.length)
+
+const s = 'technology, computers, it, code';
+
+console.log(s.split(', '));
