@@ -49,3 +49,10 @@ console.log(Array.isArray(fruits));
 console.log(fruits.indexOf('oranges'));
 
 console.log(fruits);
+
+const person = {
+    firstName: 'Josh',
+    lastName: 'Sermon',
+    age: 30,
+    hobbies: ['music, movies']
+}
