@@ -34,25 +34,34 @@
 
 // Arrays - variables that hold multiple values
 
-const fruits = ['apples', 'oranges', 'pears']
+//const fruits = ['apples', 'oranges', 'pears']
 
-fruits[3] = 'grapes';
+//fruits[3] = 'grapes';
 
-fruits.push('mangos');
+//fruits.push('mangos');
 
-fruits.unshift('strawberries');
+//fruits.unshift('strawberries');
 
-fruits.pop();
+//fruits.pop();
 
-console.log(Array.isArray(fruits));
+//console.log(Array.isArray(fruits));
 
-console.log(fruits.indexOf('oranges'));
+//console.log(fruits.indexOf('oranges'));
 
-console.log(fruits);
+//console.log(fruits);
+
+
 
 const person = {
     firstName: 'Josh',
     lastName: 'Sermon',
     age: 30,
-    hobbies: ['music, movies']
+    hobbies: ['music, movies', 'sports'],
+    address: {
+        street: '50 main st',
+        city: 'Boston',
+        state: 'MA'
+    }
 }
+
+console.log(person.address.city);
