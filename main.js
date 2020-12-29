@@ -52,16 +52,38 @@
 
 
 
-const person = {
-    firstName: 'Josh',
-    lastName: 'Sermon',
-    age: 30,
-    hobbies: ['music, movies', 'sports'],
-    address: {
-        street: '50 main st',
-        city: 'Boston',
-        state: 'MA'
-    }
-}
+//const person = {
+//    firstName: 'Josh',
+//    lastName: 'Sermon',
+//    age: 30,
+//   hobbies: ['music, movies', 'sports'],
+//   address: {
+//        street: '50 main st',
+//        city: 'Boston',
+//        state: 'MA'
+//    }
+//}
 
-console.log(person.address.city);
+//person.email = 'josh@gmail.com';
+
+//console.log(person);
+
+const todos = [
+    {
+        id: 1,
+        text: 'Take out trash',
+        isCompleted: true
+    },
+    {
+        id: 2,
+        text: 'Meeting with boss',
+        isCompleted: true
+    },
+    {
+        id: 3,
+        text: 'Dentist appt',
+        isCompleted: false
+    }
+];
+
+console.log(todos);
