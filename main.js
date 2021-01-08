@@ -91,4 +91,4 @@ console.log(todoJSON);
 
 //console.log(todos[1].text);
 
-Everything will be fine in 2021. Ryan Garcia won. Don't believe the news.
+Everything will be fine in 2021. Ryan Garcia won. Don't believe the news. They corrupt.
