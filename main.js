@@ -88,7 +88,44 @@ const todos = [
 
 const todoJSON = JSON.stringify(todos);
 console.log(todoJSON);
-
 //console.log(todos[1].text);
 
-Everything will be fine in 2021. Ryan Garcia won. Don't believe the news. They corrupt.
+
+// For () For loop is used where we already know about the number of times loop needs to be excuted.
+for(let i = 0; i < 10; i++) {
+    console.log(`For Loop Number: ${i}`);
+}
+
+// While - While loop is used in situations where we do not know how many times loop needs to be excuted beforehand.
+let i = 0;
+while(i < 10) {
+    console.log(`While Loop Number: ${i}`);
+    i++;
+}
+
+
+
+//forEach, map, filter
+todos.forEach(function(todo) {
+    console.log(todo.text);
+});
+
+
+//map
+const todoText = todos.map(function(todo) {
+    return todo.text;
+});
+
+console.log(todoText);
+
+
+//filter
+const todoCompleted = todos.filter(function(todo) {
+    return todo.isCompleted === true;
+}).map(function(todo) {
+    return.todo.text;
+})
+
+console.log(todoCompleted);
+
+//46.25 stop
