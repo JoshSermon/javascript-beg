@@ -128,4 +128,23 @@ const todoCompleted = todos.filter(function(todo) {
 
 console.log(todoCompleted);
 
-//46.25 stop
+//Conditional
+
+const x = 10;
+
+if(x === 10) {
+    console.log('x is 10');
+} else if(x > 10) {
+    console.log('x is greater than 10')
+} else {
+    console.log('x is less than 10');
+}
+
+// or II and &&
+
+const x = 6;
+const y = 11;
+
+if (X > 5 && Y > 10) {
+    console.log('x is more than 5 or y is more than 10')
+}
