@@ -177,4 +177,4 @@ const addNumbs(num1 = 1, num2 = 1) {
 
 console.log(addNums(5, 5));
 
-console.log * add Number
+console.log * add Number[else]
