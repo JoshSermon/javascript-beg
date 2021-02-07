@@ -179,4 +179,4 @@ console.log(addNums(5, 5));
 
 console.log * add Number[else]
 
-console.log(addNums(5, 10))
+console.log(addNums(5, 15))
