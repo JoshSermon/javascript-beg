@@ -92,13 +92,13 @@ console.log(todoJSON);
 
 
 // For () For loop is used where we already know about the number of times loop needs to be excuted.
-for(let i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     console.log(`For Loop Number: ${i}`);
 }
 
 // While - While loop is used in situations where we do not know how many times loop needs to be excuted beforehand.
 let i = 0;
-while(i < 10) {
+while (i < 10) {
     console.log(`While Loop Number: ${i}`);
     i++;
 }
@@ -106,13 +106,13 @@ while(i < 10) {
 
 
 //forEach, map, filter
-todos.forEach(function(todo) {
+todos.forEach(function (todo) {
     console.log(todo.text);
 });
 
 
 //map
-const todoText = todos.map(function(todo) {
+const todoText = todos.map(function (todo) {
     return todo.text;
 });
 
@@ -120,9 +120,9 @@ console.log(todoText);
 
 
 //filter
-const todoCompleted = todos.filter(function(todo) {
+const todoCompleted = todos.filter(function (todo) {
     return todo.isCompleted === true;
-}).map(function(todo) {
+}).map(function (todo) {
     return.todo.text;
 })
 
@@ -132,9 +132,9 @@ console.log(todoCompleted);
 
 const x = 10;
 
-if(x === 10) {
+if (x === 10) {
     console.log('x is 10');
-} else if(x > 10) {
+} else if (x > 10) {
     console.log('x is greater than 10')
 } else {
     console.log('x is less than 10');
@@ -157,7 +157,7 @@ const color = x > 10 ? 'red' : 'blue';
 
 console.log(color);
 
-switch(color) {
+switch (color) {
     case 'red':
         console.log('color is red');
         break;
@@ -179,4 +179,4 @@ console.log(addNums(5, 5));
 
 console.log * add Number[else]
 
-console.log(addNums(5, 15))
+console.log(addNums(5, 25))
