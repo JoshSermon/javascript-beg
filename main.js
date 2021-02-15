@@ -179,4 +179,6 @@ console.log(addNums(5, 5));
 
 console.log * add Number[else]
 
-console.log(addNums(5, 46))
+console.log(addNums(5, 55))
+
+VarDate
