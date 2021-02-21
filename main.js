@@ -182,3 +182,5 @@ console.log * add Number[else]
 console.log(addNums(5, 55))
 
 var quantity;
+
+quantity = 3;
