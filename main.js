@@ -187,4 +187,4 @@ quantity = 12;
 
 const x = 15;
 
-console.log(addNums(180, 210));
+console.log(addNums(210, 180));
