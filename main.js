@@ -151,9 +151,9 @@ if (X > 5 && Y > 10) {
 
 // case switch
 
-const x = 10;
+const x = 30;
 
-const color = x > 10 ? 'red' : 'blue';
+const color = x > 30 ? 'red' : 'blue';
 
 console.log(color);
 
@@ -187,4 +187,4 @@ quantity = 12;
 
 const x = 15;
 
-console.log(addNums(180, 210));
+console.log(addNums(210, 180));
