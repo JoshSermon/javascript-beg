@@ -165,7 +165,7 @@ switch (color) {
         console.log('color is blue');
         break;
     default:
-        console.log('color is NOT blue or red');
+        console.log('color is NOT red or yellow');
         break;
 
 }
